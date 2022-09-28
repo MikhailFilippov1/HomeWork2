@@ -18,7 +18,6 @@ List<Long> ids;             //Это лист id'шников. Потом нуж
     }
 
     public Cart() {
-
     }
 
     public List<Long> getIds() {

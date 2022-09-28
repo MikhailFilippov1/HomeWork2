@@ -53,6 +53,6 @@ public class CartRepository {
                 if(carts.get(numCart).ids.get(i).equals(id)){    //Берем id из списка корзины numCart и сравниваем с id в параметре
                     carts.get(numCart).ids.remove(i);
                 }
-            }
+            }           //Не слишком просто? Может stream'ы надо использовать?
     }
 }
