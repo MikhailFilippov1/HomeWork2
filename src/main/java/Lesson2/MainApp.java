@@ -20,6 +20,7 @@ public class MainApp {
         ids1 = new ArrayList<>(Arrays.asList(new Long(5L), new Long(10L), new Long(3L), new Long(5L)));
         cartService.putToCart(ids1);
 
+        System.out.println("\n After pushing products!!!");
         cartService.printAllCarts();
 
         cartService.deleteFromCartById(0, 1L);

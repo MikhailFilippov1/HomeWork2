@@ -22,7 +22,7 @@ public class ProductRepository {
                 new Product(7L, "Egg", 2),
                 new Product(8L, "Ketchup", 10),
                 new Product(9L, "Spaghetti", 7),
-                new Product(10L, "Salt", 1)));
+                new Product(10L, "Сахар", 1)));
     }
 
     public Product findById(Long id) {

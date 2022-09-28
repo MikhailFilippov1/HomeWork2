@@ -32,7 +32,7 @@ public class CartService {
     public void printAllCarts(){
         List<Cart> carts;
         carts = cartRepository.getCarts();
-//        carts.stream().filter(i -> i.getId().equals(id)).findFirst().get();
+//        carts.stream().filter(i -> i.getId().equals(id)).findFirst().get(); // С этим не стал возиться
 //        carts.stream().map((s) -> s + " ").forEach((s) -> cartRepository.printCart(s));
         for (int i = 0; i < carts.size(); i++) { //Пока печатаем все карты из массива карт
             cartRepository.printCart(i);         //Когда запилим user'а будем печатать корзину user'а по имени

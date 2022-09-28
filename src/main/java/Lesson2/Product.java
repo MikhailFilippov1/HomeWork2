@@ -1,6 +1,6 @@
 package Lesson2;
 
-public class Product {
+public class Product {  //Хотел еще вес брутто добавить )))
     private Long id;
     private String title;
     private int price;
